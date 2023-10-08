@@ -4,10 +4,6 @@
         width: 100vw;
     }
 
-    main .personagem .imagem {
-        height: 85%;
-    }
-
     .conteudo {
         justify-content: flex-end;
         left: 0;
@@ -25,21 +21,40 @@
     }
 
     .botoes {
+        bottom: 0;
+        left: 0;
+        display: flex;
         flex-direction: row;
+        width: 100vw;
+        justify-content: flex-start;
         align-items: flex-end;
-        width: 100%;
-        padding: 30px;
+        overflow-x: auto;
     }
 
     .botoes .botao img {
         max-width: 60px;
     }
+    
+    .botoes .botao {
+        margin-left: 10px;
+    }
+
+    .botoes::-webkit-scrollbar {
+        width: 60px;
+        height: 3px;
+    }
+    
+    .botoes::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+    
+    .botoes::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 6px;
+    }
 }
 
 @media (max-width: 425px) {
-    main .personagem .imagem {
-        height: auto;
-    }
 
     .conteudo .logo {
         width: 170px;
@@ -56,7 +71,8 @@
 
     .botoes {
         padding: 20px;
-        top: -20%;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 
     .botoes .botao img {
