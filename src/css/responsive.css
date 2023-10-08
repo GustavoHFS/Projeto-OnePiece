@@ -4,6 +4,13 @@
         width: 100vw;
     }
 
+    main .personagem .imagens {
+        object-fit: cover;
+        position: absolute;
+        right: 130px;
+        overflow: visible;
+    }
+
     .conteudo {
         justify-content: flex-end;
         left: 0;
