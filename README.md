@@ -1,6 +1,7 @@
 <h1 align="center"> Projeto ONE PIECE </h1>
 
 <p> Projeto realizado junto as lives do canal Dev em Dobro no Youtube.<br/>
+Clique aqui para visualizar o projeto: https://bit.ly/4cBO8ge
 
 ## 🚀 Tecnologias
 
